@@ -1,0 +1,305 @@
+.bao .header {
+    background-color: white;
+    position: relative;
+    margin-top: 65px;
+}
+
+.a {
+    width: 150px;
+}
+
+.bao nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-color: rgb(67, 135, 170);
+    margin-top: -65px;
+}
+
+.a {
+    width: 240px;
+}
+
+.bao nav ul li:hover {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+.bao nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.bao nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.bao nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(67, 135, 170);
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 180px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+nav ul ul a {
+    display: block;
+    line-height: 30px;
+    color: rgb(67, 135, 170);
+    text-decoration: none;
+    font-size: large;
+    padding: 0 auto;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li:hover {
+    background-color: lightskyblue;
+    color: black;
+    width: 180px;
+    border-radius: 3px;
+}
+
+nav .v {
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+nav .v button {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: rgb(67, 135, 170);
+    display: flex;
+    justify-content: space-around;
+}
+
+.bao .header img {
+    width: 100%;
+    height: 500px;
+}
+
+.e {
+    color: white;
+}
+
+.bao aside {
+    float: left;
+}
+
+.a2 {
+    width: 140px;
+    height: 150px;
+}
+
+p {
+    text-align: justify;
+}
+
+.n {
+    width: 28px;
+}
+
+.s1 {
+    z-index: 3;
+}
+
+article {
+    padding-top: 50px;
+    height: 600px;
+    background-color: rgb(201, 212, 223);
+}
+
+.s {
+    width: 800px;
+    background-color: white;
+    margin-left: 23%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    height: 450px;
+    position: relative;
+}
+
+.s h2 {
+    text-align: center;
+}
+
+.dau {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dau .s1 {
+    padding-right: 160px;
+}
+
+.dau .s2 {
+    padding-right: 150px;
+}
+
+.h img {
+    width: 100px;
+}
+
+.dau .s3 {
+    padding-right: 100px;
+}
+
+.h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h input {
+    height: 20px;
+    width: 40px;
+}
+
+.h button {
+    height: 20px;
+    width: 40px;
+}
+
+.r {
+    display: flex;
+    align-items: center;
+}
+
+.r h3 {
+    padding-left: 50px;
+}
+
+.h .r1 {
+    margin-right: 60px;
+}
+
+.h .r1 button {
+    margin-right: -5px;
+    height: 25px;
+    margin-left: 0px;
+    background-color: red;
+    color: white;
+    width: 50px;
+}
+
+.h .r1 input {
+    margin-left: 2px;
+}
+
+.h #a {
+    margin-right: 140px;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    margin-top: 10px;
+}
+
+.l input {
+    width: 100px;
+    height: 20px;
+}
+
+.l h2 {
+    padding-right: 20px;
+}
+
+.s button {
+    background-color: lightskyblue;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.l button {
+    margin-right: 400px;
+}
+
+.l1 {
+    margin-top: 150px;
+    position: sticky;
+}
+
+.h #b {
+    margin-right: 40px;
+}
+
+.bao .header button img {
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+}
+
+.bao .header button {
+    border-radius: 50%;
+}
+
+.bao .header .nut {
+    position: absolute;
+    margin-top: -320px;
+}
+
+.bao .header .nut .i2 {
+    margin-left: 1385px;
+}
+
+table td {
+    border: none;
+}
+
+table td span {
+    padding-right: 10px;
+}
+
+table .j1 {
+    padding-left: 175px;
+}
+
+table .r1 {
+    padding-left: 140px;
+}
+
+table .j2 {
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+table {
+    border: none;
+}
